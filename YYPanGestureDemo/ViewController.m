@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
-
+#import "YYPanGestureModule.h"
 @interface ViewController ()
-
+{
+    YYPanGestureModule *panModule;
+}
 @end
 
 @implementation ViewController
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    panModule = [YYPanGestureModule addPanGestureInView:self.view];
 }
 
 

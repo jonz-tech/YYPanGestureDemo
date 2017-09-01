@@ -15,6 +15,7 @@
 		5F0A17C91F59938E0066F546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0A17C71F59938E0066F546 /* LaunchScreen.storyboard */; };
 		5F0A17D41F59938E0066F546 /* YYPanGestureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A17D31F59938E0066F546 /* YYPanGestureDemoTests.m */; };
 		5F0A17DF1F59938E0066F546 /* YYPanGestureDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A17DE1F59938E0066F546 /* YYPanGestureDemoUITests.m */; };
+		5F0A17EE1F5993BD0066F546 /* YYPanGestureModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A17ED1F5993BD0066F546 /* YYPanGestureModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5F0A17DA1F59938E0066F546 /* YYPanGestureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYPanGestureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0A17DE1F59938E0066F546 /* YYPanGestureDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYPanGestureDemoUITests.m; sourceTree = "<group>"; };
 		5F0A17E01F59938E0066F546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F0A17EC1F5993BD0066F546 /* YYPanGestureModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPanGestureModule.h; sourceTree = "<group>"; };
+		5F0A17ED1F5993BD0066F546 /* YYPanGestureModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPanGestureModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				5F0A17C71F59938E0066F546 /* LaunchScreen.storyboard */,
 				5F0A17CA1F59938E0066F546 /* Info.plist */,
 				5F0A17B91F59938E0066F546 /* Supporting Files */,
+				5F0A17EC1F5993BD0066F546 /* YYPanGestureModule.h */,
+				5F0A17ED1F5993BD0066F546 /* YYPanGestureModule.m */,
 			);
 			path = YYPanGestureDemo;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F0A17C11F59938E0066F546 /* ViewController.m in Sources */,
+				5F0A17EE1F5993BD0066F546 /* YYPanGestureModule.m in Sources */,
 				5F0A17BE1F59938E0066F546 /* AppDelegate.m in Sources */,
 				5F0A17BB1F59938E0066F546 /* main.m in Sources */,
 			);
