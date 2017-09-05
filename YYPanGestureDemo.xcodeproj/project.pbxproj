@@ -16,6 +16,15 @@
 		5F0A17D41F59938E0066F546 /* YYPanGestureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A17D31F59938E0066F546 /* YYPanGestureDemoTests.m */; };
 		5F0A17DF1F59938E0066F546 /* YYPanGestureDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A17DE1F59938E0066F546 /* YYPanGestureDemoUITests.m */; };
 		5F0A17EE1F5993BD0066F546 /* YYPanGestureModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A17ED1F5993BD0066F546 /* YYPanGestureModule.m */; };
+		5F15AC4D1F5E8AA800383877 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F15AC421F5E8AA800383877 /* ioapi.c */; };
+		5F15AC4E1F5E8AA800383877 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F15AC441F5E8AA800383877 /* mztools.c */; };
+		5F15AC4F1F5E8AA800383877 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F15AC461F5E8AA800383877 /* unzip.c */; };
+		5F15AC501F5E8AA800383877 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F15AC481F5E8AA800383877 /* zip.c */; };
+		5F15AC511F5E8AA800383877 /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F15AC4C1F5E8AA800383877 /* ZipArchive.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5F15AC541F5E8C6700383877 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F15AC531F5E8C6700383877 /* libz.tbd */; };
+		5F15AC561F5E8C9100383877 /* aaa.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5F15AC551F5E8C9100383877 /* aaa.zip */; };
+		5F15AC581F5E993800383877 /* zip2.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5F15AC571F5E993800383877 /* zip2.zip */; };
+		5F60C1BD1F5EB26C00C928B5 /* xibeihanzi.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5F60C1BC1F5EB26C00C928B5 /* xibeihanzi.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +63,21 @@
 		5F0A17E01F59938E0066F546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F0A17EC1F5993BD0066F546 /* YYPanGestureModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPanGestureModule.h; sourceTree = "<group>"; };
 		5F0A17ED1F5993BD0066F546 /* YYPanGestureModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPanGestureModule.m; sourceTree = "<group>"; };
+		5F15AC411F5E8AA800383877 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		5F15AC421F5E8AA800383877 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		5F15AC431F5E8AA800383877 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		5F15AC441F5E8AA800383877 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		5F15AC451F5E8AA800383877 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		5F15AC461F5E8AA800383877 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		5F15AC471F5E8AA800383877 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		5F15AC481F5E8AA800383877 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		5F15AC491F5E8AA800383877 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		5F15AC4B1F5E8AA800383877 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		5F15AC4C1F5E8AA800383877 /* ZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipArchive.m; sourceTree = "<group>"; };
+		5F15AC531F5E8C6700383877 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5F15AC551F5E8C9100383877 /* aaa.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = aaa.zip; sourceTree = "<group>"; };
+		5F15AC571F5E993800383877 /* zip2.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = zip2.zip; sourceTree = "<group>"; };
+		5F60C1BC1F5EB26C00C928B5 /* xibeihanzi.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = xibeihanzi.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F15AC541F5E8C6700383877 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +109,13 @@
 		5F0A17AD1F59938E0066F546 = {
 			isa = PBXGroup;
 			children = (
+				5F15AC401F5E8AA800383877 /* minizip */,
+				5F15AC4A1F5E8AA800383877 /* ZipArchive */,
 				5F0A17B81F59938E0066F546 /* YYPanGestureDemo */,
 				5F0A17D21F59938E0066F546 /* YYPanGestureDemoTests */,
 				5F0A17DD1F59938E0066F546 /* YYPanGestureDemoUITests */,
 				5F0A17B71F59938E0066F546 /* Products */,
+				5F15AC521F5E8C6700383877 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +150,9 @@
 		5F0A17B91F59938E0066F546 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5F60C1BC1F5EB26C00C928B5 /* xibeihanzi.zip */,
+				5F15AC571F5E993800383877 /* zip2.zip */,
+				5F15AC551F5E8C9100383877 /* aaa.zip */,
 				5F0A17BA1F59938E0066F546 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +174,39 @@
 				5F0A17E01F59938E0066F546 /* Info.plist */,
 			);
 			path = YYPanGestureDemoUITests;
+			sourceTree = "<group>";
+		};
+		5F15AC401F5E8AA800383877 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				5F15AC411F5E8AA800383877 /* crypt.h */,
+				5F15AC421F5E8AA800383877 /* ioapi.c */,
+				5F15AC431F5E8AA800383877 /* ioapi.h */,
+				5F15AC441F5E8AA800383877 /* mztools.c */,
+				5F15AC451F5E8AA800383877 /* mztools.h */,
+				5F15AC461F5E8AA800383877 /* unzip.c */,
+				5F15AC471F5E8AA800383877 /* unzip.h */,
+				5F15AC481F5E8AA800383877 /* zip.c */,
+				5F15AC491F5E8AA800383877 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		5F15AC4A1F5E8AA800383877 /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				5F15AC4B1F5E8AA800383877 /* ZipArchive.h */,
+				5F15AC4C1F5E8AA800383877 /* ZipArchive.m */,
+			);
+			path = ZipArchive;
+			sourceTree = "<group>";
+		};
+		5F15AC521F5E8C6700383877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F15AC531F5E8C6700383877 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +321,9 @@
 				5F0A17C91F59938E0066F546 /* LaunchScreen.storyboard in Resources */,
 				5F0A17C61F59938E0066F546 /* Assets.xcassets in Resources */,
 				5F0A17C41F59938E0066F546 /* Main.storyboard in Resources */,
+				5F15AC561F5E8C9100383877 /* aaa.zip in Resources */,
+				5F60C1BD1F5EB26C00C928B5 /* xibeihanzi.zip in Resources */,
+				5F15AC581F5E993800383877 /* zip2.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +349,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F0A17C11F59938E0066F546 /* ViewController.m in Sources */,
+				5F15AC511F5E8AA800383877 /* ZipArchive.m in Sources */,
+				5F15AC501F5E8AA800383877 /* zip.c in Sources */,
+				5F15AC4F1F5E8AA800383877 /* unzip.c in Sources */,
 				5F0A17EE1F5993BD0066F546 /* YYPanGestureModule.m in Sources */,
+				5F15AC4E1F5E8AA800383877 /* mztools.c in Sources */,
 				5F0A17BE1F59938E0066F546 /* AppDelegate.m in Sources */,
 				5F0A17BB1F59938E0066F546 /* main.m in Sources */,
+				5F15AC4D1F5E8AA800383877 /* ioapi.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +512,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yy.Dev..YYPanGestureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/minizip\"/** \"$(SRCROOT)/ZipArchive\"/**";
 			};
 			name = Debug;
 		};
@@ -452,6 +525,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yy.Dev..YYPanGestureDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/minizip\"/** \"$(SRCROOT)/ZipArchive\"/**";
 			};
 			name = Release;
 		};
@@ -524,6 +598,7 @@
 				5F0A17E51F59938E0066F546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F0A17E61F59938E0066F546 /* Build configuration list for PBXNativeTarget "YYPanGestureDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +607,7 @@
 				5F0A17E81F59938E0066F546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F0A17E91F59938E0066F546 /* Build configuration list for PBXNativeTarget "YYPanGestureDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +616,7 @@
 				5F0A17EB1F59938E0066F546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
