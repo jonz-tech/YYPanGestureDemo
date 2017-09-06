@@ -25,6 +25,7 @@
 		5F15AC561F5E8C9100383877 /* aaa.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5F15AC551F5E8C9100383877 /* aaa.zip */; };
 		5F15AC581F5E993800383877 /* zip2.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5F15AC571F5E993800383877 /* zip2.zip */; };
 		5F60C1BD1F5EB26C00C928B5 /* xibeihanzi.zip in Resources */ = {isa = PBXBuildFile; fileRef = 5F60C1BC1F5EB26C00C928B5 /* xibeihanzi.zip */; };
+		5F60C1E81F5FD3BB00C928B5 /* YYPanGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F60C1E71F5FD3BB00C928B5 /* YYPanGesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		5F15AC551F5E8C9100383877 /* aaa.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = aaa.zip; sourceTree = "<group>"; };
 		5F15AC571F5E993800383877 /* zip2.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = zip2.zip; sourceTree = "<group>"; };
 		5F60C1BC1F5EB26C00C928B5 /* xibeihanzi.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = xibeihanzi.zip; sourceTree = "<group>"; };
+		5F60C1E61F5FD3BB00C928B5 /* YYPanGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPanGesture.h; sourceTree = "<group>"; };
+		5F60C1E71F5FD3BB00C928B5 /* YYPanGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPanGesture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 				5F15AC571F5E993800383877 /* zip2.zip */,
 				5F15AC551F5E8C9100383877 /* aaa.zip */,
 				5F0A17BA1F59938E0066F546 /* main.m */,
+				5F60C1E61F5FD3BB00C928B5 /* YYPanGesture.h */,
+				5F60C1E71F5FD3BB00C928B5 /* YYPanGesture.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -357,6 +362,7 @@
 				5F0A17BE1F59938E0066F546 /* AppDelegate.m in Sources */,
 				5F0A17BB1F59938E0066F546 /* main.m in Sources */,
 				5F15AC4D1F5E8AA800383877 /* ioapi.c in Sources */,
+				5F60C1E81F5FD3BB00C928B5 /* YYPanGesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

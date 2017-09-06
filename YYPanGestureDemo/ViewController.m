@@ -24,11 +24,11 @@
     
     panModule = [YYPanGestureModule addPanGestureInView:self.view];
     
-    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
-    [self.view addSubview:btn];
-    [btn addTarget:self action:@selector(unZipFile) forControlEvents:UIControlEventTouchUpInside];
-    btn.backgroundColor = [UIColor redColor];
-    [self unZipFile];
+//    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+//    [self.view addSubview:btn];
+//    [btn addTarget:self action:@selector(unZipFile) forControlEvents:UIControlEventTouchUpInside];
+//    btn.backgroundColor = [UIColor redColor];
+//    [self unZipFile];
 }
 
 - (void)unZipFile{
